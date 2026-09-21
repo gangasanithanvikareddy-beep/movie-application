@@ -281,3 +281,12 @@ h2 {
 .details-buttons button:last-child:hover {
     background: #ef4444;
 }
+.student-info {
+    margin-top: 20px;
+    color: #cbd5e1;
+    font-size: 15px;
+}
+
+.student-info p {
+    margin: 4px 0;
+}
