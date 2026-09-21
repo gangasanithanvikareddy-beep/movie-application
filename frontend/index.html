@@ -9,8 +9,8 @@
 <body>
 
     <header>
-        <h1>🎬 Movie Application</h1>
-        <p>Explore movies from our collection</p>
+        <h1>🎬 CineVault</h1>
+<p>Discover. Explore. Enjoy.</p>
     </header>
 
     <main>
@@ -23,6 +23,21 @@
             <button onclick="searchMovies()">Search</button>
         </section>
 <section id="movieDetails" class="movie-details"></section>
+<section class="admin-section">
+    <h2>Add a Movie</h2>
+
+    <form id="movieForm">
+        <input type="text" id="title" placeholder="Movie title" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="text" id="genre" placeholder="Genre" required>
+        <input type="text" id="language" placeholder="Language" required>
+        <input type="date" id="releaseDate" required>
+        <input type="number" id="duration" placeholder="Duration (minutes)" required>
+        <input type="number" id="rating" placeholder="Rating" step="0.1" min="0" max="10">
+
+        <button type="submit">Add Movie</button>
+    </form>
+</section>
         <section>
             <h2>Movies</h2>
             <div id="movieContainer" class="movie-container"></div>
